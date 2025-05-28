@@ -1,19 +1,26 @@
 // Skills Section Logo's
+import tensorflowLogo from "./assets/tech_logo/tensorflow.jpg";
+import kerasLogo from "./assets/tech_logo/keras.png";
+import pytorchLogo from "./assets/tech_logo/pytorch.png";
+import sklearnLogo from "./assets/tech_logo/sklearn.png";
+import huggingfaceLogo from "./assets/tech_logo/huggingface.png";
+import pandasLogo from "./assets/tech_logo/pandas.png";
+import excelLogo from "./assets/tech_logo/msexcel.png";
+import matplotlibLogo from "./assets/tech_logo/matplotlib.png";
+import jupyterLogo from "./assets/tech_logo/jupyter.png";
+import NumpyLogo from "./assets/tech_logo/Numpy.png";
+import seabornLogo from "./assets/tech_logo/seaborn.svg";
+import powerbiLogo from "./assets/tech_logo/powerbi.png";
+import geminiLogo from "./assets/tech_logo/geminiapi.jpg";
+import flasklogo from "./assets/tech_logo/flasklogo.png";
+import googlecolablogo from "./assets/tech_logo/googlecolablogo.png";
+import fastapilogo from "./assets/tech_logo/fastapi.png";
+import streamlitlogo from "./assets/tech_logo/streamlit.png";
+import rlogo from "./assets/tech_logo/r.jpg";
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
@@ -21,17 +28,11 @@ import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -57,32 +58,29 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: 'Data Science',
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Python', logo: pythonLogo },
+      { name: 'Numpy', logo: NumpyLogo },
+      { name: 'Pandas', logo: pandasLogo },
+      { name: 'Matplotlib', logo: matplotlibLogo },
+      { name: 'Seaborn', logo: seabornLogo },
+      { name: 'Jupiter Notebook', logo: jupyterLogo },
+      { name: 'Excel', logo:excelLogo},
+      { name: 'PowerBI', logo: powerbiLogo },
+      
     ],
   },
   {
-    title: 'Backend',
+    title: 'Machine Learning & Deep Learning',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Tensorflow', logo: tensorflowLogo },
+      { name: 'Keras', logo: kerasLogo },
+      { name: 'Pytorch', logo: pytorchLogo },
+      { name: 'Scikit-learn', logo: sklearnLogo },
+      { name: 'Hugging Face', logo: huggingfaceLogo },
+      { name: 'Flask', logo: flasklogo },
+      { name: 'GeminiAPI', logo: geminiLogo },
     ],
   },
   {
@@ -92,9 +90,12 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
+      { name: 'R', logo: rlogo },
+      { name: 'HTML', logo: htmlLogo },
+      { name: 'CSS', logo: cssLogo },
+      { name: 'MySQL', logo: mysqlLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      
     ],
   },
   {
@@ -104,10 +105,14 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      { name: 'Google colab', logo: googlecolablogo},
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: 'Streamlit', logo: streamlitlogo },
+      { name: 'Flask', logo: flasklogo },
+      { name: 'FastAPI', logo: fastapilogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'GeminiAPI', logo: geminiLogo },
+      { name: 'PowerBI', logo: mongodbLogo },
     ],
   },
 ];
