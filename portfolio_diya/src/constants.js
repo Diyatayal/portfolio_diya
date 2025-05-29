@@ -1,9 +1,9 @@
 // Skills Section Logo's
 import tensorflowLogo from "./assets/tech_logo/tensorflowLogo.webp";
-import kerasLogo from "./assets/tech_logo/keras.png";
+import kerasLogo from "./assets/tech_logo/kerasLogo.png";
 import pytorchLogo from "./assets/tech_logo/pytorch.png";
 import sklearnLogo from "./assets/tech_logo/sklearn.png";
-import huggingfaceLogo from "./assets/tech_logo/huggingface.png";
+import huggingfaceLogo from "./assets/tech_logo/huggingFace.svg";
 import pandasLogo from "./assets/tech_logo/pandaslogo.png";
 import excelLogo from "./assets/tech_logo/msexcel.png";
 import matplotlibLogo from "./assets/tech_logo/matplotliblogo.png";
@@ -21,7 +21,7 @@ import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
+import mongodbLogo from './assets/tech_logo/mongo.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
@@ -33,7 +33,7 @@ import postmanLogo from './assets/tech_logo/postman.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Experience Section Logo's
-import corecardlogo from './assets/company_logo/corecardlogo.jpg';
+import corecardlogo from './assets/company_logo/corecard.jpeg';
 import mitslogo from './assets/company_logo/mitslogo.jpg';
 
 
@@ -42,15 +42,16 @@ import Mitslogo from './assets/education_logo/mitslogo.jpg';
 import spslogo from './assets/education_logo/spslogo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
+import medicalLogo from "./assets/work_logo/mental.webp";
+import resumeLogo from "./assets/work_logo/resume_analyser.webp";
+import lungsLogo from "./assets/work_logo/lungs.jpg";
+import ImageLogo from './assets/work_logo/imagecaption.png';
+import marksLogo from './assets/work_logo/student.webp';
+import ganLogo from "./assets/work_logo/faces.jpg";
+import netflixLogo from "./assets/work_logo/netflix.png";
+
 import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+
 
 
 export const SkillsInfo = [
@@ -118,37 +119,33 @@ export const SkillsInfo = [
       id: 0,
       img: corecardlogo,
       role: "Software Engineering Intern",
-      company: "CoreCard Software India Pvt. Ltd.",
+      company: "CoreCard Software India Pvt. Ltd.,Bhopal",
       date: "Jun 2024- July 2024",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      desc: "During my internship at CoreCard, I created and replicated a website using HTML, CSS, JavaScript, and React, ensuring full responsiveness across devices. Alongside front-end development, I also gained exposure to backend concepts, enhancing my understanding of full-stack development and how frontend interacts with backend systems in real-world projects.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
         "React JS",
-        "TypeScript",
-        "Node JS",
         "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
+        "Bootstrap",
+        "Responsive Design",
+        
       ],
     },
     {
-      id: 1,
       img: Mitslogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      role: "Summer Intern",
+      company: "Madhav Institute of Research and Technology(MITS),Gwalior",
+      date: "Jun 2023 - July 2023",
+      desc: "During my summer internship at MITS, Gwalior, I explored core concepts of Artificial Intelligence, including machine learning algorithms, neural networks, and real-world AI applications. This experience enhanced my theoretical understanding and practical skills, laying a strong foundation for building intelligent systems and deepening my interest in the AI and ML domain.",
       skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
+        "Artificial Intelligence",
+        "Pandas",
+        "Numpy",
+        "Matplolib",
+        "scikit-learn",
+       
       ],
     },
    
@@ -188,39 +185,39 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Smart Resume Analyser",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "I built a Smart Resume Analyzer using NLP to evaluate resumes and provide improvement suggestions. It integrates Gemini API for ATS scoring, grammar correction, and AI-generated customized cover letters. Additionally, it features a job scraping module that fetches and displays relevant job listings based on the user’s profile.It also has Admin Panel to display all the information.",
+      image: resumeLogo,
+      tags: ["NLP", "Spacy", "Gemini API", "Streamlit", "beautifulSoup","MySQLlite"],
+      github: "https://github.com/Diyatayal/ResumeAnalyser",
+      webapp: "",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Smart Cure",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+        "I developed a Medical Recommendation System that takes user symptoms as input and predicts the possible disease, along with personalized suggestions for diet, workout, and medications. It also includes a mental health chatbot to provide emotional support and guidance, enhancing the overall wellness experience for users through AI-driven recommendations.",
+      image: medicalLogo,
+      tags: ["Pandas", "scikit-learn", "ML-algorithms", "Gemini API", "Langchain"],
       github: "https://github.com/codingmastr/CSPrep",
       webapp: "https://csprep.netlify.app/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Lungs Disease Prediction",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+        "I developed a deep learning model using Convolutional Neural Networks (CNN) to classify chest X-ray images as Pneumonia, COVID-19, or Normal. The system features an interactive user interface with camera integration, allowing users to upload images in real time for instant, AI-powered medical diagnosis and assessment.",
+      image: lungsLogo,
+      tags: ["CNN", "Tensorflow", "OpenCV"],
       github: "https://github.com/codingmastr/Movie-Recommendation-App",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Network Security Pipeline",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "",
       image: npmLogo,
       tags: ["React JS", "Node.js", "NPM", "Validation"],
       github: "https://github.com/codingmastr/cmtk-email-validator",
@@ -228,52 +225,43 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "Image Captioning using CNN and RNN",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+        "I developed an Image Captioning web application using a combination of Convolutional Neural Networks (CNN) for feature extraction and Recurrent Neural Networks (RNN) for generating descriptive captions. The project includes an intuitive user interface that allows users to upload images and receive AI-generated captions in real time.",
+      image: ImageLogo,
+      tags: ["Numpy", "Pandas", "Scikit-learn", "Tensorflow","Streamlit","CNN","RNN"],
       github: "https://github.com/codingmastr/Task-Reminder-Tool",
       webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Student Marks Prediction",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
+        "I developed a Student Marks Prediction system using machine learning algorithms to analyze academic data and predict marks in subjects like Physics, Chemistry, and Math. The model achieves an accuracy of 89%, helping identify performance trends and support academic planning through intelligent, data-driven predictions.",
+      image: marksLogo,
+      tags: ["Numpy", "Pandas", "Scikit-learn", "ML-algorithms","Streamlit"],
+      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    },
+    {
+      id: 6,
+      title: "Human Face Generation using GANs",
+      description:
+        "I implemented a Generative Adversarial Network (GAN) to generate realistic facial images of humans. The model was trained on a dataset of human faces, learning to create high-quality, synthetic facial images by leveraging the adversarial training process between the generator and discriminator networks.",
+      image: ganLogo,
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
       github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://webversedigital.com/",
     },
     {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
       id: 7,
-      title: "Image Search App",
+      title: "Neflix Clone Website",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+        "I built a Netflix clone web application using the MERN stack—MongoDB, Express.js, React.js, and Node.js. The project features user authentication, movie browsing, and dynamic content rendering. It replicates core functionalities of Netflix with a responsive UI, real-time data handling, and seamless user experience across devices.",
+      image: netflixLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React.js","Express.js","Node.js","MongoDB","Postman"],
+      github: "https://github.com/codingmastr/Webverse-Digital",
+      webapp: "https://webversedigital.com/",
     },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+    
   ];  
