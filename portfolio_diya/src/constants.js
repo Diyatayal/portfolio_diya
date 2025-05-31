@@ -200,8 +200,8 @@ export const SkillsInfo = [
         "I developed a Medical Recommendation System that takes user symptoms as input and predicts the possible disease, along with personalized suggestions for diet, workout, and medications. It also includes a mental health chatbot to provide emotional support and guidance, enhancing the overall wellness experience for users through AI-driven recommendations.",
       image: medicalLogo,
       tags: ["Pandas", "scikit-learn", "ML-algorithms", "Gemini API", "Langchain"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      github: "",
+      webapp: "",
     },
     {
       id: 2,
@@ -210,8 +210,8 @@ export const SkillsInfo = [
         "I developed a deep learning model using Convolutional Neural Networks (CNN) to classify chest X-ray images as Pneumonia, COVID-19, or Normal. The system features an interactive user interface with camera integration, allowing users to upload images in real time for instant, AI-powered medical diagnosis and assessment.",
       image: lungsLogo,
       tags: ["CNN", "Tensorflow", "OpenCV"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      github: "",
+      webapp: "",
     },
     {
       id: 3,
@@ -220,8 +220,8 @@ export const SkillsInfo = [
         "",
       image: npmLogo,
       tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      github: "",
+      webapp: "",
     },
     {
       id: 4,
@@ -230,8 +230,8 @@ export const SkillsInfo = [
         "I developed an Image Captioning web application using a combination of Convolutional Neural Networks (CNN) for feature extraction and Recurrent Neural Networks (RNN) for generating descriptive captions. The project includes an intuitive user interface that allows users to upload images and receive AI-generated captions in real time.",
       image: ImageLogo,
       tags: ["Numpy", "Pandas", "Scikit-learn", "Tensorflow","Streamlit","CNN","RNN"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      github: "",
+      webapp: "",
     },
     {
       id: 5,
@@ -240,8 +240,8 @@ export const SkillsInfo = [
         "I developed a Student Marks Prediction system using machine learning algorithms to analyze academic data and predict marks in subjects like Physics, Chemistry, and Math. The model achieves an accuracy of 89%, helping identify performance trends and support academic planning through intelligent, data-driven predictions.",
       image: marksLogo,
       tags: ["Numpy", "Pandas", "Scikit-learn", "ML-algorithms","Streamlit"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      github: "",
+      webapp: "",
     },
     {
       id: 6,
@@ -250,8 +250,8 @@ export const SkillsInfo = [
         "I implemented a Generative Adversarial Network (GAN) to generate realistic facial images of humans. The model was trained on a dataset of human faces, learning to create high-quality, synthetic facial images by leveraging the adversarial training process between the generator and discriminator networks.",
       image: ganLogo,
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      github: "",
+      webapp: "",
     },
     {
       id: 7,
@@ -260,8 +260,8 @@ export const SkillsInfo = [
         "I built a Netflix clone web application using the MERN stack—MongoDB, Express.js, React.js, and Node.js. The project features user authentication, movie browsing, and dynamic content rendering. It replicates core functionalities of Netflix with a responsive UI, real-time data handling, and seamless user experience across devices.",
       image: netflixLogo,
       tags: ["HTML", "CSS", "JavaScript", "React.js","Express.js","Node.js","MongoDB","Postman"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      github: "",
+      webapp: "",
     },
     
   ];  
